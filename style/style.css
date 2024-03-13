@@ -50,12 +50,20 @@ header {
     justify-content: space-around;
     font-size: 1rem;
     color: rgb(58, 58, 58);
-
+    text-decoration: none;
+    */
 }
 
 #icon {
     color: black;
+    font-size: 20px;
 }
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
 
 /* main style css */
 
@@ -85,7 +93,7 @@ header {
 
 /* banner style css */
 
-.banner{
+.banner {
     display: flex;
     margin-left: 230px;
     margin-right: 165px;
@@ -95,28 +103,131 @@ header {
     /* justify-content: center; */
 }
 
-.banner-content{
+.banner-content {
     width: 580px;
     height: 270px;
     margin-right: 233px;
-    
+
 }
 
-.banner-img{
+.banner-img {
     background-image: url(../images/Circle\ design.svg);
     width: 475px;
     height: 475px;
 }
 
 /* sponsor style css */
-.sponsors{
+.sponsors {
     width: 1110px;
     height: 110px;
-    border: 2px solid black;
     margin: 100px 300px;
     justify-content: space-between;
 }
 
-.sponsors img{
+.sponsors img {
     margin: 35px 30px;
+}
+
+/* card section style css */
+
+.card-container {
+    width: 1040px;
+    height: 1660px;
+    margin: 100px 390px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+    text-align: center;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    width: 330px;
+    height: 500px;
+    padding: 15px 15px;
+}
+
+.p-name {
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: -5px;
+
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+#rating-star {
+    margin-top: -15px;
+}
+
+/* gear style css */
+
+.gear-container {
+    width: 1140px;
+    height: 270px;
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 120px;
+}
+
+.gear-content {
+    width: 610px;
+    height: 224px;
+    margin-left: 96px;
+}
+
+.gear-title {
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.join-now {
+    width: 155px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* footer style css */
+.footer-content {
+    background-color: rgb(10, 8, 38);
+    width: 1440px;
+    height: 300px;
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.footer-content p{
+    color: aliceblue;
+}
+
+.social-icon{
+    color: aliceblue;
 }
